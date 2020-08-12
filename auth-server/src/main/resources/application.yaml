@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: gateway-api
+  datasource:
+    url: jdbc:h2:mem:default
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: 53cr3t

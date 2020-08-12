@@ -1,0 +1,6 @@
+.idea
+target/
+*.iml
+# Project exclude paths
+/.gateway/
+/.tmp/
