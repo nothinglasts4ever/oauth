@@ -6,10 +6,10 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 @SpringBootApplication
 @EnableAuthorizationServer
-public class OauthApplication {
+public class AuthorizationServer {
 
     public static void main(String[] args) {
-        SpringApplication.run(OauthApplication.class, args);
+        SpringApplication.run(AuthorizationServer.class, args);
     }
 
 }

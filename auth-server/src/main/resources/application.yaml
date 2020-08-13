@@ -15,3 +15,12 @@ security:
     client:
       client-id: client
       client-secret: 53cr3t
+    authorization:
+      jwt:
+        key-value: s1gn1ngK3y
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG

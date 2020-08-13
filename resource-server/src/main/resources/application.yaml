@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: 53cr3t
+    resource:
+      jwt:
+        key-value: s1gn1ngK3y
